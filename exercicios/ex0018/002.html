@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav >a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0;
+        }
+        article > aside{
+            background: rgb(165, 165,165);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1> meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article> 
+                <h1>Noticias de mocambique</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Error, illum iusto aliquid animi sunt, minus at, nostrum voluptates perferendis dolore culpa temporibus.
+                Minus distinctio repudiandae mollitia, odit eligendi aut! Vitae!</p>
+                <aside>
+                    <p>Artigos escrito por luis bernardo</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p> Desenvolvido pelo curso em video.</p>
+    </footer>
+</body>
+</html>
